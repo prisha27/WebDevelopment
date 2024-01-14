@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+}
+body{
+    width: 100%;
+    height: 1500px;
+}
+.header{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    height: 765px;
+    width: 100%;
+    
+}
+.home{
+    text-decoration: none;
+    border-radius: 20px;
+    background: #BD00FF;
+    padding: 13px; 
+    width: 72px;
+    height: 10px;
+    position: float;
+    left: 0px;
+    color: white;
+     
+    
+}
+.button {
+    background-color: #BD00FF; 
+    border: none;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    border-radius: 10%;
+    text-decoration: none;
+
+    font-size: 16px;
+    cursor: pointer;
+  }
+.home a{
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav{
+   
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-content: left;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: aliceblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.plan{
+    
+        color: rgb(173, 200, 223);
+        position: absolute;
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: left;
+}
+.plan h1{
+    font-size: 62px;
+    text-align: left;
+    color: white;
+    font-family: Cascadia Code ExtraLight;
+}
+.plan p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.try{
+        background-color: #BD00FF; 
+        border: none;
+        color: white;
+        padding: 13px;
+        text-align: center;
+        border-radius: 10%;
+        text-decoration: none;
+        left: 50%;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+
+.curved svg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.two{
+    background-color: #BD00FF;
+}
+.line{
+    background-color: #BD00FF;
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        margin: auto;
+        text-align: center;
+        color: #660885;
+        top: 20%;
+        font-size: 40px;
+        max-width: 800px;
+        position: relative;
+      }
+    h2:before {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #660885;
+        left: 85px;
+        top: 50%;
+        position: absolute;
+      }
+      h2:after {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #660885;
+        right: 85px;
+        top: 50%;
+        position: absolute;
+      }
+}
+
+
+
